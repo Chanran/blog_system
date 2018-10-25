@@ -11,6 +11,7 @@
     "stop": "egg-scripts stop --title=egg-server-myblog",
     "dev": "egg-bin dev -r egg-ts-helper/register",
     "debug": "egg-bin debug -r egg-ts-helper/register",
+    "produce": "node scripts/produce.js",
     "test-local": "egg-bin test -r egg-ts-helper/register",
     "test": "npm run lint -- --fix && npm run test-local",
     "cov": "egg-bin cov -r egg-ts-helper/register",
